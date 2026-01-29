@@ -21,10 +21,10 @@ public class TextMoodAnalyzer {
     private static void loadEmotionDictionary() {
         // Emociones: alegría, tristeza, enojo, miedo
         String[][] entries = {
-            {"feliz", "alegría"}, {"contento", "alegría"}, {"genial", "alegría"},
-            {"triste", "tristeza"}, {"llorar", "tristeza"}, {"deprimido", "tristeza"},
-            {"molesto", "enojo"}, {"enojado", "enojo"}, {"furioso", "enojo"},
-            {"asustado", "miedo"}, {"nervioso", "miedo"}, {"preocupado", "miedo"}
+            {"feliz", "alegría"}, {"content", "alegría"}, {"genial", "alegría"},
+            {"triste", "tristeza"}, {"llora", "tristeza"}, {"deprimid", "tristeza"},
+            {"molest", "enojo"}, {"enojad", "enojo"}, {"furi", "enojo"},
+            {"asustad", "miedo"}, {"nervios", "miedo"}, {"preocupad", "miedo"}
         };
 
         for (String[] entry : entries) {
@@ -77,3 +77,4 @@ public class TextMoodAnalyzer {
         }
     }
 }
+
